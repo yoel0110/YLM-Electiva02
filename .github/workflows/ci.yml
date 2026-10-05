@@ -1,0 +1,24 @@
+name: Alerta DevOps ITLA
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  hola-mundo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download source code
+        uses: actions/checkout@v4
+
+      - name: Execute test file
+        run: npm run test
+
+      - name: Send message to ntfy
+        run: |
+          curl -H "Title: Hello World - Yoel lebron - 20250051" \
+               -H "Priority: default" \
+               -d "GitHub Actions ITLA." \
+               https://ntfy.sh/devops-itla

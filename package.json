@@ -1,0 +1,21 @@
+{
+  "name": "ylm-electiva02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoel0110/YLM-Electiva02.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/yoel0110/YLM-Electiva02/issues"
+  },
+  "homepage": "https://github.com/yoel0110/YLM-Electiva02#readme"
+}
